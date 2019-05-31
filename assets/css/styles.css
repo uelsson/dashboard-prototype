@@ -1,0 +1,24 @@
+/** common **/
+body{
+	background: linear-gradient(136.05deg, #F5F7FA 0%, #F4F6F8 100%);
+}
+
+.header{
+	height: 240px;
+	background: linear-gradient(201.71deg, #6A79DD 0%, #5866C3 100%);
+}
+
+.card-bg{
+	height: 248px;
+	border-radius: 8px;
+	background-color: #FFFFFF;
+	box-shadow: 0 4px 16px 0 rgba(0,0,0,0.06);
+}
+/** common **/
+
+/** specific **/
+.card-bg-top-space{
+	position: relative;
+	bottom: 54px;
+}
+/** specific **/
