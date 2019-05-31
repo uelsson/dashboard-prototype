@@ -16,9 +16,52 @@ body{
 }
 /** common **/
 
-/** specific **/
+/** header **/
+.navigation-primary-desktop{
+	margin-top: 39px;
+	color: #FFF;
+}
+
+.navigation-primary-desktop .notification .bell{
+	background-image: url('../images/notification.svg');
+	background-repeat: no-repeat;
+	margin-top: 3px;
+	width: 19px;
+	margin-right: 39px;
+}
+
+.navigation-primary-desktop .notification .number_notification{
+	box-sizing: border-box;
+    height: 26px;
+    width: 26px;
+    border: 2px solid #6573D6;
+    background-color: #4C5EBB;
+    font-size: 12px;
+    border-radius: 16px;
+    position: relative;
+    left: 10px;
+    bottom: 14px;
+}
+
+.navigation-primary-desktop .notification .number_notification span{
+	display: block;
+    position: relative;
+    text-align: center;
+    top: 2px;
+}
+
+.navigation-primary-desktop .wellcome_name{
+	margin-right: 16px;
+}
+
+.navigation-primary-desktop .chevron{
+	margin-top: 1px;
+}
+/** header **/
+
+/** content **/
 .card-bg-top-space{
 	position: relative;
 	bottom: 54px;
 }
-/** specific **/
+/** content **/
