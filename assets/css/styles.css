@@ -2,12 +2,111 @@
 body{
 	background: linear-gradient(136.05deg, #F5F7FA 0%, #F4F6F8 100%);
 }
+/** common **/
 
-.header{
+
+/** dashboard-header **/
+.dashboard-header{
 	height: 240px;
 	background: linear-gradient(201.71deg, #6A79DD 0%, #5866C3 100%);
 }
-/** common **/
+/** dashboard-header **/
+
+
+/** dashboard-wellcomeBar **/
+.dashboard-wellcomeBar{
+	padding-top: 39px;
+	color: #FFF;
+}
+
+.dashboard-wellcomeBar-bell{
+	background-image: url('../images/notification.svg');
+	background-repeat: no-repeat;
+	position: relative;
+	width: 19px;
+	bottom: 2px;
+	margin-right: 35px;
+}
+
+.dashboard-wellcomeBar-numberNotification{
+	box-sizing: border-box;
+    height: 26px;
+    width: 26px;
+    border: 2px solid #6573D6;
+    background-color: #4C5EBB;
+    font-size: 12px;
+    border-radius: 16px;
+    position: relative;
+    left: 10px;
+    bottom: 14px;
+}
+
+.dashboard-wellcomeBar-numberNotification span{
+	display: block;
+    position: relative;
+    text-align: center;
+    top: 2px;
+}
+
+.dashboard-wellcomeBar-name{
+    margin-right: 11px;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 18px;
+    opacity: 0.9;
+    letter-spacing: 0.25px;
+}
+
+.dashboard-wellcomeBar-chevron{
+	width: 16px;
+    height: 16px;
+    position: relative;
+    bottom: 2px;
+}
+/** dashboard-wellcomeBar **/
+
+
+/** dashboard-menuBar **/
+.dashboard-menuBar{
+    padding-top: 36px;
+    font-size: 16px;
+}
+
+.dashboard-menuBar-menu ul{
+	padding-inline-start: 0;
+}
+
+.dashboard-menuBar-menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 18px;
+	padding: 3px 17px;
+	cursor: pointer;
+}
+
+.dashboard-menuBar-menu ul li.selected{
+	background-color: #7480D1;
+	border-radius: 17px;
+}
+
+.dashboard-menuBar-menu ul li:hover{
+	background-color: #7480D1;
+	border-radius: 17px;
+}
+
+.dashboard-menuBar-menu ul li.selected a{
+	font-weight: 600;
+}
+
+.dashboard-menuBar-menu ul li a{
+	font-family: 'Poppins';
+	text-decoration: none;
+	font-weight: 300;
+	color: #FFF;
+	font-size: 18px;
+	opacity: 0.9;
+}
+/** dashboard-menuBar **/
 
 
 /** dashboard-card **/
@@ -27,6 +126,13 @@ body{
 	min-height: 248px;
 }
 /** dashboard-card **/
+
+
+/** dashboard-withoutChart-left **/
+.dashboard-withoutChart-left{
+
+}
+/** dashboard-withoutChart-left **/
 
 
 /** dashboard-title **/
@@ -72,94 +178,35 @@ body{
 /** dashboard-slack **/
 
 
-/** header **/
-.navigation-desktop{
-	padding-top: 39px;
-	color: #FFF;
-}
-
-
-.navigation-desktop .notification .bell{
-	background-image: url('../images/notification.svg');
-	background-repeat: no-repeat;
-	position: relative;
-	width: 19px;
-	bottom: 2px;
-	margin-right: 35px;
-}
-.navigation-desktop .notification .number_notification{
-	box-sizing: border-box;
-    height: 26px;
-    width: 26px;
-    border: 2px solid #6573D6;
-    background-color: #4C5EBB;
-    font-size: 12px;
-    border-radius: 16px;
-    position: relative;
-    left: 10px;
-    bottom: 14px;
-}
-.navigation-desktop .notification .number_notification span{
-	display: block;
-    position: relative;
-    text-align: center;
-    top: 2px;
-}
-.navigation-desktop .wellcome_name{
-    margin-right: 11px;
-    font-family: "Poppins";
-    font-weight: 300;
-    font-size: 18px;
-    opacity: 0.9;
-    letter-spacing: 0.25px;
-}
-.navigation-desktop .chevron{
-	width: 16px;
-    height: 16px;
-    position: relative;
-    bottom: 2px;
-}
-
-
-.navigation-desktop .menu{
-    padding-top: 36px;
-    font-size: 16px;
-}
-.navigation-desktop .menu ul{
-	padding-inline-start: 0;
-}
-.navigation-desktop .menu ul li{
-	list-style: none;
-	display: inline-block;
-	margin-right: 18px;
-	padding: 3px 17px;
-	cursor: pointer;
-}
-.navigation-desktop .menu ul li.selected{
-	background-color: #7480D1;
-	border-radius: 17px;
-}
-.navigation-desktop .menu ul li:hover{
-	background-color: #7480D1;
-	border-radius: 17px;
-}
-.navigation-desktop .menu ul li.selected a{
-	font-weight: 600;
-}
-.navigation-desktop .menu ul li a{
-	font-family: 'Poppins';
-	text-decoration: none;
-	font-weight: 300;
-	color: #FFF;
-	font-size: 18px;
-	opacity: 0.9;
-}
-/** header **/
-
-
 /** dashboard-content **/
 .dashboard-content{
 	position: relative;
 	bottom: 54px;
 }
 /** dashboard-content **/
+
+
+/** dashboard-withChart **/
+.dashboard-withChart{
+    padding: 19px 9px 19px 9px;
+}
+/** dashboard-withChart **/
+
+
+/** dashboard-withoutChart **/
+.dashboard-withoutChart{
+    padding: 19px 9px 19px 9px;
+}
+/** dashboard-withoutChart **/
+
+
+/** dashboard-footer **/
+.dashboard-footer{
+	position: relative;
+	bottom: 22px;
+	font-family: 'Poppins';
+	font-size: 14px;
+	font-weight: 300;
+	color: #79828B;
+}
+/** dashboard-footer **/

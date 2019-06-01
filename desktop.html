@@ -15,173 +15,231 @@
     </head>
 
     <body>
-        <!-- /header -->
-        <div class="header">
-            <!-- /container -->
-            <div class="container navigation-desktop">
-                <!-- /row -->
-                <div class="row">
-                    <!-- /col -->
-                    <div class="col-md-8">    
-                        <img class="logo" src="./assets/images/logo.png"/>
-                    </div><!-- ./col -->
+        <!-- /dashboard-header -->
+        <div class="dashboard-header">
+            <!-- /dashboard-wellcomeBar -->
+            <div class="dashboard-wellcomeBar"> <!-- compnent -->
+                <!-- /container -->
+                <div class="container">
+                    <!-- /row -->
+                    <div class="row">
+                        <!-- /col -->
+                        <div class="col-md-8">    
+                            <img class="logo" src="./assets/images/logo.png"/>
+                        </div><!-- ./col -->
 
-                    <!-- /col -->
-                    <div class="col-md-4 text-right">
-                        <div class="d-inline-block notification">
-                            <div class="bell">
-                                <div class="number_notification">
-                                    <span>3</span>
+                        <!-- /col -->
+                        <div class="col-md-4 text-right">
+                            <div class="d-inline-block">
+                                <div class="dashboard-wellcomeBar-bell">
+                                    <div class="dashboard-wellcomeBar-numberNotification">
+                                        <span>3</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="d-inline-block wellcome_name">Alex Doe</div>
+                            <div class="d-inline-block dashboard-wellcomeBar-name">Alex Doe</div>
 
-                        <div class="d-inline-block">
-                            <img class="chevron" src="./assets/images/chevron.svg"/>
-                        </div>
-                    </div><!-- ./col -->
-                </div><!-- ./row -->
+                            <div class="d-inline-block">
+                                <img class="dashboard-wellcomeBar-chevron" src="./assets/images/chevron.svg"/>
+                            </div>
+                        </div><!-- ./col -->
+                    </div><!-- ./row -->
+                </div>
+            </div><!-- ./dashboard-wellcomeBar -->
 
-                <!-- /row -->
-                <div class="row">
-                    <!-- /col -->
-                    <div class="col-md-12">
-                        <div class="menu">
-                            <ul>
-                                <li class="selected"><a href="#">Home</a></li>
-                                <li><a href="#">My Projects</a></li>
-                                <li><a href="#">Payments</a></li>
-                                <li><a href="#">Activity</a></li>
-                                <li><a href="#">Settings</a></li>
-                            </ul>
-                        </div>
-                    </div><!-- ./col -->
-                </div><!-- ./row -->
-            </div><!-- ./container -->
-        </div><!-- ./header -->
+            <!-- /dashboard-menuBar -->
+            <div class="dashboard-menuBar"> <!-- compnent -->
+                <!-- /container -->
+                <div class="container">
+                    <!-- /row -->
+                    <div class="row">
+                        <!-- /col -->
+                        <div class="col-md-12">
+                            <div class="dashboard-menuBar-menu">
+                                <ul>
+                                    <li class="selected"><a href="#">Home</a></li>
+                                    <li><a href="#">My Projects</a></li>
+                                    <li><a href="#">Payments</a></li>
+                                    <li><a href="#">Activity</a></li>
+                                    <li><a href="#">Settings</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- ./col -->
+                    </div><!-- ./row -->
+                </div><!-- ./container -->
+            </div><!-- ./dashboard-menuBar -->
+        </div><!-- ./dashboard-header -->
 
         <!-- /dashboard-content -->
         <div class="dashboard-content"> <!--component-->
             <!-- /container -->
-            <div class="container dashboard-card"> <!--component-->
+            <div class="container">
                 <!-- /row -->
                 <div class="row">
                     <!-- /col -->
                     <div class="col-md-8">
-                        <!-- /col -->
-                        <div class="col-md-12 dashboard-card-card8Col dashboard-card-bg">
-                            
-                        </div><!-- ./col -->
-                    </div><!-- ./col -->
-
-                    <!-- /col -->
-                    <div class="col-md-4">
-                        <!-- /col -->
-                        <div class="col-md-12 dashboard-card-card4Col dashboard-card-bg">
-                            
-                        </div><!-- ./col -->
-                    </div><!-- ./col -->
-                </div><!-- ./row -->
-            </div><!-- ./container -->
-
-            <!-- /container -->
-            <div class="container dashboard-title"> <!--component-->
-                <!-- /row -->
-                <div class="row">
-                    <!-- /col -->
-                    <div class="col-md-12">
-                        <div class="float-left dashboard-title-primary">Suggested Projects</div>
-                        <div class="float-right dashboard-title-seeMore"><a href="#">View all projects <i class="fas fa-arrow-right"></i></a></div>
-                    </div><!-- ./col -->
-                </div><!-- ./row -->
-            </div><!-- ./container -->
-
-            <!-- /container -->
-            <div class="container dashboard-card"> <!--component-->
-                <!-- /row -->
-                <div class="row">
-                    <!-- /col -->
-                    <div class="col-md-4">
-                        <div class="col-md-12 dashboard-card-card4Col dashboard-card-bg">
-                            
+                        <div class="dashboard-card"> <!--component-->
+                            <!-- /col -->
+                            <div class="col-md-12 dashboard-card-card8Col dashboard-card-bg">
+                                <div class="dashboard-withChart"> <!--component-->
+                                    With Chart
+                                </div>
+                            </div><!-- ./col -->
                         </div>
                     </div><!-- ./col -->
 
                     <!-- /col -->
                     <div class="col-md-4">
-                        <div class="col-md-12 dashboard-card-card4Col dashboard-card-bg">
-                            
+                        <div class="dashboard-card"> <!--component-->
+                            <!-- /col -->
+                            <div class="col-md-12 dashboard-card-card4Col dashboard-card-bg">
+                                <div class="dashboard-withoutChart"> <!--component-->
+                                    <div class="float-left dashboard-withoutChart-left">
+                                    A
+                                    </div>
+
+                                    <div class="float-right dashboard-withoutChart-right">
+                                    B
+                                    </div>
+                                    
+                                </div>
+                            </div><!-- ./col -->
+                        </div>
+                    </div><!-- ./col -->
+                </div><!-- ./row -->
+            </div><!-- ./container -->
+
+            <!-- /dashboard-title -->
+            <div class="dashboard-title"> <!--component-->
+                <!-- /container -->
+                <div class="container">
+                    <!-- /row -->
+                    <div class="row">
+                        <!-- /col -->
+                        <div class="col-md-12">
+                            <div class="float-left dashboard-title-primary">Suggested Projects</div>
+                            <div class="float-right dashboard-title-seeMore"><a href="#">View all projects <i class="fas fa-arrow-right"></i></a></div>
+                        </div><!-- ./col -->
+                    </div><!-- ./row -->
+                </div><!-- ./container -->
+            </div><!-- ./dashboard-title -->
+
+            <div> <!--component-->
+                <!-- /container -->
+                <div class="container">
+                    <!-- /row -->
+                    <div class="row">
+                        <!-- /col -->
+                        <div class="col-md-4">
+                            <div class="dashboard-card"> <!--component-->
+                                <div class="col-md-12 dashboard-card-card4Col dashboard-card-bg">
+                                    
+                                </div>
+                            </div>
+                        </div><!-- ./col -->
+
+                        <!-- /col -->
+                        <div class="col-md-4">
+                            <div class="dashboard-card"> <!--component-->
+                                <div class="col-md-12 dashboard-card-card4Col dashboard-card-bg">
+                                    
+                                </div>
+                            </div>
+                        </div><!-- ./col -->
+
+                        <!-- /col -->
+                        <div class="col-md-4">
+                            <div class="dashboard-card"> <!--component-->
+                                <div class="col-md-12 dashboard-card-card4Col dashboard-card-bg">
+                                    
+                                </div>
+                            </div>
+                        </div><!-- ./col -->
+                    </div><!-- ./row -->
+                </div><!-- ./container -->
+            </div>
+
+            <!-- /dashboard-slack -->
+            <div class="dashboard-slack"> <!--component-->
+                <!-- /container -->
+                <div class="container">
+                    <!-- /row -->
+                    <div class="row">
+                        <!-- /col -->
+                        <div class="col-md-12">
+                            <!-- /col -->
+                            <div class="col-md-12 dashboard-slack-bg">
+                                
+                            </div><!-- ./col -->
+                        </div><!-- ./col -->
+                    </div><!-- ./row -->
+                </div><!-- ./container -->
+            </div><!-- ./dashboard-slack -->
+
+            <!-- /dashboard-title -->
+            <div class="dashboard-title"> <!--component-->
+                <!-- /container -->
+                <div class="container">
+                    <!-- /row -->
+                    <div class="row">
+                        <!-- /col -->
+                        <div class="col-md-8">
+                            <div class="float-left dashboard-title-primary">Activity</div>
+                            <div class="float-right dashboard-title-seeMore"><a href="#">View all activity <i class="fas fa-arrow-right"></i></a></div>
+                        </div><!-- ./col -->
+
+                        <!-- /col -->
+                        <div class="col-md-4">
+                            <div class="float-left dashboard-title-primary">Top Earners</div>
+                            <div class="float-right dashboard-title-seeMore"><a href="#">View all <i class="fas fa-arrow-right"></i></a></div>
+                        </div><!-- ./col -->
+                    </div><!-- ./row -->
+                </div><!-- ./container -->
+            </div><!-- ./dashboard-title -->
+
+            <!-- /container -->
+            <div class="container"> <!--component-->
+                <!-- /row -->
+                <div class="row">
+                    <!-- /col -->
+                    <div class="col-md-8">
+                        <div class="dashboard-card"> <!--component-->
+                            <!-- /col -->
+                            <div class="col-md-12 dashboard-card-card8Col dashboard-card-bg">
+                                
+                            </div><!-- ./col -->
                         </div>
                     </div><!-- ./col -->
 
                     <!-- /col -->
                     <div class="col-md-4">
-                        <div class="col-md-12 dashboard-card-card4Col dashboard-card-bg">
-                            
+                        <div class="dashboard-card"> <!--component-->
+                            <!-- /col -->
+                            <div class="col-md-12 dashboard-card-card4Col dashboard-card-bg">
+                                
+                            </div><!-- ./col -->
                         </div>
                     </div><!-- ./col -->
                 </div><!-- ./row -->
             </div><!-- ./container -->
-
-            <!-- /container -->
-            <div class="container dashboard-slack"> <!--component-->
-                <!-- /row -->
-                <div class="row">
-                    <!-- /col -->
-                    <div class="col-md-12">
-                        <!-- /col -->
-                        <div class="col-md-12 dashboard-slack-bg">
-                            
-                        </div><!-- ./col -->
-                    </div><!-- ./col -->
-                </div><!-- ./row -->
-            </div><!-- ./container -->
-
-            <!-- /container -->
-            <div class="container dashboard-title"> <!--component-->
-                <!-- /row -->
-                <div class="row">
-                    <!-- /col -->
-                    <div class="col-md-8">
-                        <div class="float-left dashboard-title-primary">Activity</div>
-                        <div class="float-right dashboard-title-seeMore"><a href="#">View all activity <i class="fas fa-arrow-right"></i></a></div>
-                    </div><!-- ./col -->
-
-                    <!-- /col -->
-                    <div class="col-md-4">
-                        <div class="float-left dashboard-title-primary">Top Earners</div>
-                        <div class="float-right dashboard-title-seeMore"><a href="#">View all <i class="fas fa-arrow-right"></i></a></div>
-                    </div><!-- ./col -->
-                </div><!-- ./row -->
-            </div><!-- ./container -->
-
-            <!-- /container -->
-            <div class="container dashboard-card"> <!--component-->
-                <!-- /row -->
-                <div class="row">
-                    <!-- /col -->
-                    <div class="col-md-8">
-                        <!-- /col -->
-                        <div class="col-md-12 dashboard-card-card8Col dashboard-card-bg">
-                            
-                        </div><!-- ./col -->
-                    </div><!-- ./col -->
-
-                    <!-- /col -->
-                    <div class="col-md-4">
-                        <!-- /col -->
-                        <div class="col-md-12 dashboard-card-card4Col dashboard-card-bg">
-                            
-                        </div><!-- ./col -->
-                    </div><!-- ./col -->
-                </div><!-- ./row -->
-            </div><!-- ./container -->
-
         </div><!-- ./dashboard-content -->
         
-        <footer></footer>
+        <footer>
+            <!-- /dashboard-footer -->
+            <div class="dashboard-footer"> <!--component-->
+                <!-- /container -->
+                <div class="container"> 
+                    <!-- /row -->
+                    <div class="row">
+                        <!-- /col -->
+                        <div class="col-md-12 text-center">
+                            <!-- https://www.sketchappsources.com/contributor/vishnuprasadvp Breaking TODO-->
+                        </div><!-- /col -->
+                    </div><!-- ./row -->
+                </div><!-- ./container -->
+            </div><!-- ./dashboard-footer -->
+        </footer>
 
         <!-- /js -->
         <script src="./assets/library/jquery/3.4.1.slim.min.js"></script>
