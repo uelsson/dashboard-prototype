@@ -31,21 +31,45 @@ body{
 
 /** dashboard-title **/
 .dashboard-title{
-	padding-top: 48px;
+	padding-top: 43px;
 	padding-bottom: 24px;
 }
 
 .dashboard-title-primary{
 	font-family: 'Poppins';
 	color: #42505C;
+	font-weight: 400;
 	font-size: 20px;
 	letter-spacing: 0.25px;
 }
 
 .dashboard-title-seeMore{
 	font-family: 'Poppins';
+	color: #79828B;
+	font-weight: 300;
+	text-transform: uppercase;
+	position: relative;
+	padding-top: 6px;
+}
+
+.dashboard-title-seeMore a{
+	color: #79828B;
 }
 /** dashboard-title **/
+
+
+/** dashboard-slack **/
+.dashboard-slack{
+	padding-top: 40px;
+}
+
+.dashboard-slack-bg{
+	height: 149px;
+	background: linear-gradient(201.71deg, #8F9DF8 0%, #92A0FF 100%);
+	box-shadow: 0 26px 51px 0 rgba(0,0,0,0.08);
+	border-radius: 10px;
+}
+/** dashboard-slack **/
 
 
 /** header **/
