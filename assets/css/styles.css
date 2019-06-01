@@ -11,6 +11,8 @@ body{
 
 
 /** dashboard-card **/
+.dashboard-card{}
+
 .dashboard-card-bg{
 	border-radius: 8px;
 	background-color: #FFFFFF;
@@ -24,12 +26,16 @@ body{
 .dashboard-card-card4Col{
 	min-height: 248px;
 }
+/** dashboard-card **/
 
-.dashboard-card-top{
-	padding-top: 43px;
+
+/** dashboard-title **/
+.dashboard-title{
+	padding-top: 48px;
+	padding-bottom: 24px;
 }
 
-.dashboard-card-title{
+.dashboard-title-primary{
 	font-family: 'Poppins';
 	color: #42505C;
 	font-size: 20px;
@@ -39,7 +45,7 @@ body{
 .dashboard-title-seeMore{
 	font-family: 'Poppins';
 }
-/** dashboard-card **/
+/** dashboard-title **/
 
 
 /** header **/
