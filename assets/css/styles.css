@@ -17,12 +17,16 @@ body{
 	box-shadow: 0 4px 16px 0 rgba(0,0,0,0.06);
 }
 
-.dashboard-card-01{
-	height: 248px;
+.dashboard-card-card8Col{
+	min-height: 248px;
 }
 
-.dashboard-card-02{
-	height: 280px;
+.dashboard-card-card4Col{
+	min-height: 248px;
+}
+
+.dashboard-card-top{
+	padding-top: 43px;
 }
 
 .dashboard-card-title{
@@ -32,8 +36,8 @@ body{
 	letter-spacing: 0.25px;
 }
 
-.dashboard-title-see-more{
-
+.dashboard-title-seeMore{
+	font-family: 'Poppins';
 }
 /** dashboard-card **/
 
@@ -123,9 +127,9 @@ body{
 /** header **/
 
 
-/** content **/
-.dashboard-content-floating{
+/** dashboard-content **/
+.dashboard-content{
 	position: relative;
 	bottom: 54px;
 }
-/** content **/
+/** dashboard-content **/
