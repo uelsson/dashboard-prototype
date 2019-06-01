@@ -7,20 +7,43 @@ body{
 	height: 240px;
 	background: linear-gradient(201.71deg, #6A79DD 0%, #5866C3 100%);
 }
+/** common **/
 
-.card-bg{
-	height: 248px;
+
+/** dashboard-card **/
+.dashboard-card-bg{
 	border-radius: 8px;
 	background-color: #FFFFFF;
 	box-shadow: 0 4px 16px 0 rgba(0,0,0,0.06);
 }
-/** common **/
+
+.dashboard-card-01{
+	height: 248px;
+}
+
+.dashboard-card-02{
+	height: 280px;
+}
+
+.dashboard-card-title{
+	font-family: 'Poppins';
+	color: #42505C;
+	font-size: 20px;
+	letter-spacing: 0.25px;
+}
+
+.dashboard-title-see-more{
+
+}
+/** dashboard-card **/
+
 
 /** header **/
 .navigation-desktop{
 	padding-top: 39px;
 	color: #FFF;
 }
+
 
 .navigation-desktop .notification .bell{
 	background-image: url('../images/notification.svg');
@@ -63,6 +86,7 @@ body{
     bottom: 2px;
 }
 
+
 .navigation-desktop .menu{
     padding-top: 36px;
     font-size: 16px;
@@ -75,25 +99,32 @@ body{
 	display: inline-block;
 	margin-right: 18px;
 	padding: 3px 17px;
+	cursor: pointer;
 }
 .navigation-desktop .menu ul li.selected{
 	background-color: #7480D1;
 	border-radius: 17px;
 }
+.navigation-desktop .menu ul li:hover{
+	background-color: #7480D1;
+	border-radius: 17px;
+}
 .navigation-desktop .menu ul li.selected a{
-	font-family: 'Poppins' !important;
 	font-weight: 600;
 }
 .navigation-desktop .menu ul li a{
-	font-family: 'Roboto';
+	font-family: 'Poppins';
 	text-decoration: none;
 	font-weight: 300;
 	color: #FFF;
+	font-size: 18px;
+	opacity: 0.9;
 }
 /** header **/
 
+
 /** content **/
-.card-bg-top-space{
+.dashboard-content-floating{
 	position: relative;
 	bottom: 54px;
 }
