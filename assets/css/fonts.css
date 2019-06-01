@@ -13,6 +13,27 @@
 }
 /** Roboto **/
 
+/** Roboto Mano **/
+@font-face{
+	font-family: 'Roboto Mono';
+	src: url(../fonts/Roboto_Mono/RobotoMono-Light.ttf);
+	font-style: normal;
+	font-weight: 300;
+}
+@font-face{
+	font-family: 'Roboto Mono';
+	src: url(../fonts/Roboto_Mono/RobotoMono-Regular.ttf);
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face{
+	font-family: 'Roboto Mono';
+	src: url(../fonts/Roboto_Mono/RobotoMono-Medium.ttf);
+	font-style: normal;
+	font-weight: 500;
+}
+/** Roboto Mano **/
+
 /** Poppins **/
 @font-face{
 	font-family: 'Poppins';

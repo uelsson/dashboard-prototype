@@ -2,6 +2,10 @@
 body{
 	background: linear-gradient(136.05deg, #F5F7FA 0%, #F4F6F8 100%);
 }
+
+.balloon{
+	border-radius: 17px;
+}
 /** common **/
 
 
@@ -128,13 +132,6 @@ body{
 /** dashboard-card **/
 
 
-/** dashboard-withoutChart-left **/
-.dashboard-withoutChart-left{
-
-}
-/** dashboard-withoutChart-left **/
-
-
 /** dashboard-title **/
 .dashboard-title{
 	padding-top: 43px;
@@ -196,6 +193,60 @@ body{
 /** dashboard-withoutChart **/
 .dashboard-withoutChart{
     padding: 19px 9px 19px 9px;
+}
+
+.dashboard-withoutChart hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.dashboard-withoutChart ul{
+	padding-inline-start: 0px;
+	position: relative;
+	top: 10px;
+}
+
+.dashboard-withoutChart ul li{
+	font-family: 'Roboto Mono';
+	list-style: none;
+	padding: 3px 17px;
+	display: inline-block;
+	color: #8D99A4;
+	background-color: #F1F2F3;
+}
+
+.dashboard-withoutChart-title{
+	font-family: 'Poppins';
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #79828B;
+	letter-spacing: 1.5px;
+	font-size: 14px;
+}
+
+.dashboard-withoutChart-rank{
+	font-family: 'Poppins';
+	color: #42505C;
+	font-weight: 400;
+	letter-spacing: 0.75px;
+	font-size: 30px;
+	padding-top: 10px;
+}
+
+.dashboard-withoutChart-rank span{
+	position: relative;
+	top: 3px;
+}
+
+.dashboard-withoutChart-description{
+	font-family: 'Poppins';
+	font-weight: 300;
+	font-size: 14px;
+	color: #79828B;
+}
+
+.dashboard-withoutChart-description span{
+	color: #10C172;
 }
 /** dashboard-withoutChart **/
 
