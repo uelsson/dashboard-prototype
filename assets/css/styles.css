@@ -166,11 +166,58 @@ body{
 	padding-top: 40px;
 }
 
+.dashboard-slack-icon{
+	padding: 46px 0 0 33px;
+}
+
+.dashboard-slack-title{
+	font-family: 'Poppins';
+	font-weight: 500;
+	font-size: 24px;
+	color: #FFF;
+	padding: 32px 0 0 35px;
+}
+
+.dashboard-slack-description{
+	font-family: 'Poppins';
+	font-weight: 300;
+	font-size: 16px;
+	color: #FFF;
+	opacity: 0.75;
+	padding: 2px 0 0 35px;
+}
+
 .dashboard-slack-bg{
-	height: 149px;
+	min-height: 149px;
 	background: linear-gradient(201.71deg, #8F9DF8 0%, #92A0FF 100%);
 	box-shadow: 0 26px 51px 0 rgba(0,0,0,0.08);
 	border-radius: 10px;
+}
+
+.dashboard-slack-buttons{
+	margin-top: 52px;
+	margin-left: 49px;
+}
+
+.dashboard-slack-btRemind{
+	background-color: initial;
+    color: #FFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid #FFF;
+    border-radius: 7px;
+    padding: 9px 33px;
+    margin-right: 20px;
+}
+
+.dashboard-slack-btJoin{
+	background-color: #6574D6;
+    color: #FFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid #6574D6;
+    border-radius: 7px;
+    padding: 9px 33px;
 }
 /** dashboard-slack **/
 
@@ -301,6 +348,10 @@ body{
 	padding-top: 12px;
 }
 
+.dashboard-projects-language{
+	text-align: right;
+}
+
 .dashboard-projects-language ul{
 	padding-inline-start: 0px;
 	margin-top: 10px;
@@ -315,7 +366,6 @@ body{
 	display: inline-block;
 	font-size: 16px;
 	background-color: #F1F2F3;
-	margin-right: 6px;
 }
 
 .dashboard-projects-coins ul{
@@ -349,6 +399,7 @@ body{
 	text-align: right;
 }
 /** dashboard-projects **/
+
 
 /** dashboard-footer **/
 .dashboard-footer{
