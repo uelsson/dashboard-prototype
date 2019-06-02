@@ -407,7 +407,9 @@ body{
 	padding: 19px 9px 19px 9px;
 }
 
-.dashboard-activity-user{}
+.dashboard-activity-user{
+	margin-top: 3px;
+}
 
 .dashboard-activity-title{
 	font-family: 'Poppins';
@@ -416,7 +418,7 @@ body{
     color: #79828B;
     letter-spacing: 1.5px;
     font-size: 14px;
-    margin-bottom: 14px;
+    margin-bottom: 17px;
 }
 
 .dashboard-activity-paid{
@@ -464,7 +466,7 @@ body{
 }
 
 .dashboard-activity-coins{
-	margin-top: 11px;
+	margin-top: 9px;
 }
 
 .dashboard-activity-coins ul{
@@ -477,14 +479,33 @@ body{
 	list-style: none;
 	padding: 3px 9px;
 	display: inline-block;
-	font-size: 16px;
-	margin-right: 6px;
 	letter-spacing: 1.25px;
 }
 
 .dashboard-activity-eth{
 	color: #6271D2;
+	font-size: 16px;
 	background: rgba(98, 113, 210, 0.1);
+}
+
+.dashboard-activity-btc{
+	color: #D28E62;
+	background: rgba(210, 142, 98, 0.1);
+}
+
+.dashboard-activity-currency{
+	color: #42505C;
+	font-size: 20px;
+	position: relative;
+    top: 2px;
+}
+
+.dashboard-activity-lastAccess{
+	font-family: 'Poppins';
+    font-weight: 300;
+    color: #79828B;
+    font-size: 12px;
+    margin-top: 6px;
 }
 /** dashboard-activity **/
 
