@@ -326,7 +326,7 @@ body{
 
 .dashboard-projects-name{
 	font-family: 'Poppins';
-    font-weight: 300;
+    font-weight: 400;
     color: #42505C;
     font-size: 16px;
     margin-top: 4px;
@@ -345,7 +345,7 @@ body{
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 28px;
-	padding-top: 12px;
+	padding-top: 29px;
 }
 
 .dashboard-projects-language{
@@ -374,12 +374,13 @@ body{
 }
 
 .dashboard-projects-coins ul li{
-	font-family: 'Roboto Mono';
+	font-family: 'Poppins';
 	list-style: none;
 	padding: 3px 9px;
 	display: inline-block;
 	font-size: 16px;
 	margin-right: 6px;
+	letter-spacing: 1.25px;
 }
 
 .dashboard-projects-eth{
@@ -399,6 +400,93 @@ body{
 	text-align: right;
 }
 /** dashboard-projects **/
+
+
+/** dashboard-activity **/
+.dashboard-activity{
+	padding: 19px 9px 19px 9px;
+}
+
+.dashboard-activity-user{}
+
+.dashboard-activity-title{
+	font-family: 'Poppins';
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #79828B;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.dashboard-activity-paid{
+	position: relative;
+	right: 4px;
+}
+
+.dashboard-activity-picture{
+	float: left;
+}
+
+.dashboard-activity-profileImage{
+	width: 51px;
+    height: 51px;
+    position: relative;
+    right: 17px;
+    border: 3px solid #FFFF;
+}
+
+.dashboard-activity-lastAccess{
+	text-align: right;
+}
+
+.dashboard-activity-line{
+	width: 2px;
+    height: 54px;
+    background-color: #E6EBF0;
+    margin-left: 50px;
+    margin-top: 3px;
+}
+
+.dashboard-activity-name{
+	font-family: 'Poppins';
+    font-weight: 400;
+    color: #42505C;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.dashboard-activity-description{
+	font-family: 'Poppins';
+    font-weight: 300;
+    color: #79828B;
+    font-size: 14px;
+}
+
+.dashboard-activity-coins{
+	margin-top: 11px;
+}
+
+.dashboard-activity-coins ul{
+	padding-inline-start: 0px;
+	margin-bottom: 0;
+}
+
+.dashboard-activity-coins ul li{
+	font-family: 'Poppins';
+	list-style: none;
+	padding: 3px 9px;
+	display: inline-block;
+	font-size: 16px;
+	margin-right: 6px;
+	letter-spacing: 1.25px;
+}
+
+.dashboard-activity-eth{
+	color: #6271D2;
+	background: rgba(98, 113, 210, 0.1);
+}
+/** dashboard-activity **/
 
 
 /** dashboard-footer **/
