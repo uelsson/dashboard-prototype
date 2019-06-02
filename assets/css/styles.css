@@ -213,6 +213,7 @@ body{
 	display: inline-block;
 	color: #8D99A4;
 	background-color: #F1F2F3;
+	margin-right: 6px;
 }
 
 .dashboard-withoutChart-title{
@@ -250,6 +251,104 @@ body{
 }
 /** dashboard-withoutChart **/
 
+
+/** dashboard-projects **/
+.dashboard-projects{
+	padding: 24px 9px 24px 9px;
+}
+
+.dashboard-projects hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.dashboard-projects-picture{
+	float: left;
+	width: 35%;
+}
+
+.dashboard-projects-picture img{
+	width: 48px;
+	height: 48px;
+}
+
+.dashboard-projects-userInfo{
+	float: right;
+	width: 65%;
+}
+
+.dashboard-projects-name{
+	font-family: 'Poppins';
+    font-weight: 300;
+    color: #42505C;
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+.dashboard-projects-lastAccess{
+	font-family: 'Poppins';
+	font-weight: 300;
+	color: #79828B;
+	font-size: 12px;
+}
+
+.dashboard-projects-description{
+	font-family: 'Poppins';
+	color: #42505C;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 28px;
+	padding-top: 12px;
+}
+
+.dashboard-projects-language ul{
+	padding-inline-start: 0px;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.dashboard-projects-language ul li{
+	font-family: 'Roboto Mono';
+	color: #8D99A4;
+	list-style: none;
+	padding: 3px 17px;
+	display: inline-block;
+	font-size: 16px;
+	background-color: #F1F2F3;
+	margin-right: 6px;
+}
+
+.dashboard-projects-coins ul{
+	padding-inline-start: 0px;
+	margin-bottom: 0;
+}
+
+.dashboard-projects-coins ul li{
+	font-family: 'Roboto Mono';
+	list-style: none;
+	padding: 3px 9px;
+	display: inline-block;
+	font-size: 16px;
+	margin-right: 6px;
+}
+
+.dashboard-projects-eth{
+	color: #6271D2;
+	background: rgba(98, 113, 210, 0.1);
+}
+
+.dashboard-projects-btc{
+	color: #D28E62;
+	background: rgba(210, 142, 98, 0.1);
+}
+
+.dashboard-projects-currency{
+	font-family: 'Poppins';
+	color: #42505C;
+	font-size: 20px;
+	text-align: right;
+}
+/** dashboard-projects **/
 
 /** dashboard-footer **/
 .dashboard-footer{
