@@ -376,7 +376,7 @@ body{
 .dashboard-projects-coins ul li{
 	font-family: 'Poppins';
 	list-style: none;
-	padding: 3px 9px;
+	padding: 3px 12px;
 	display: inline-block;
 	font-size: 16px;
 	margin-right: 6px;
@@ -430,6 +430,11 @@ body{
 	float: left;
 }
 
+.dashboard-activity-userInfo{
+	float: left;
+	padding-left: 5px;
+}
+
 .dashboard-activity-profileImage{
 	width: 51px;
     height: 51px;
@@ -477,7 +482,7 @@ body{
 .dashboard-activity-coins ul li{
 	font-family: 'Poppins';
 	list-style: none;
-	padding: 3px 9px;
+	padding: 3px 12px;
 	display: inline-block;
 	letter-spacing: 1.25px;
 }
@@ -508,6 +513,84 @@ body{
     margin-top: 6px;
 }
 /** dashboard-activity **/
+
+
+/** dashboard-topEarners **/
+.dashboard-topEarners{
+	padding: 19px 9px 33px 9px;
+}
+
+.dashboard-topEarners-title{
+	font-family: 'Poppins';
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #79828B;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.dashboard-topEarners-linkTitle{
+	text-align: right;
+}
+
+.dashboard-topEarners-linkTitle a{
+	font-family: 'Poppins';
+	color: #79828B;
+	font-size: 12px;
+	text-decoration: none;
+	position: relative;
+	bottom: 5px;
+}
+
+.dashboard-topEarners-linkTitle a:nth-child(1){
+	margin-right: 11px;
+}
+
+.dashboard-topEarners-linkTitle a:hover{
+	color: #666;
+}
+
+.dashboard-topEarners-linkTitle a.selected{
+	color: #6271D2;
+}
+
+.dashboard-topEarners-position{
+	float: left;
+	font-family: 'Roboto';
+	font-size: 20px;
+	color: #42505C;
+}
+
+.dashboard-topEarners-position span{
+	position: relative;
+	top: 11px;
+}
+
+.dashboard-topEarners-users{
+    height: 52px;
+}
+
+.dashboard-topEarners-users hr{
+	border-bottom: 1px solid #E6EBF0;
+}
+
+.dashboard-topEarners-picture{
+	float: left;
+}
+
+.dashboard-topEarners-userInfo{
+	float: left;
+}
+
+.dashboard-topEarners-profileImage{
+	width: 51px;
+    height: 51px;
+    position: relative;
+    border: 3px solid #FFFF;
+    margin-left: 8px;
+}
+/** dashboard-topEarners **/
 
 
 /** dashboard-footer **/
