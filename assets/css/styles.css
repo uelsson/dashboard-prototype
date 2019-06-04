@@ -230,11 +230,11 @@ body{
 /** dashboard-content **/
 
 
-/** dashboard-withChart **/
-.dashboard-withChart{
+/** dashboard-earnings **/
+.dashboard-earnings{
     padding: 19px 9px 19px 9px;
 }
-/** dashboard-withChart **/
+/** dashboard-earnings **/
 
 
 /** dashboard-withoutChart **/
@@ -603,6 +603,7 @@ body{
 .dashboard-topEarners-description{
 	font-family: 'Poppins';
     font-weight: 300;
+    letter-spacing: 1px;
     color: #79828B;
     font-size: 16px;
 }
