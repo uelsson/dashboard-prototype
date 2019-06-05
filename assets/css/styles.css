@@ -20,9 +20,58 @@ body{
 
 
 /** dashboard-wellcomeBar **/
+/** < 768 **/
+@media only screen and (max-width: 768px){
+	.dashboard-wellcomeBar{
+		padding-top: 23px;
+	}
+
+	.dashboard-wellcomeBar-logoD{
+		display: none;
+	}
+
+	.dashboard-wellcomeBar-logoM{
+		display: block;
+	}
+
+	.dashboard-wellcomeBar-logoM .menu{
+		font-size: 27px;
+	    position: relative;
+	    top: 5px;
+	    margin-right: 12px;
+	}
+
+	.dashboard-wellcomeBar-bell{
+		display: none;
+	}
+}
+
+/** > 768 **/
+@media only screen and (min-width: 769px){
+	.dashboard-wellcomeBar{
+		padding-top: 39px;
+	}
+
+	.dashboard-wellcomeBar-logoD{
+		display: block;
+	}
+
+	.dashboard-wellcomeBar-logoM{
+		display: none;
+	}
+
+	.dashboard-wellcomeBar-bell{
+		display: block;
+	}
+}
+
 .dashboard-wellcomeBar{
-	padding-top: 39px;
 	color: #FFF;
+}
+
+.dashboard-wellcomeBar .logo{
+	position: relative;
+	top: 1px;
 }
 
 .dashboard-wellcomeBar-bell{
@@ -30,7 +79,7 @@ body{
 	background-repeat: no-repeat;
 	position: relative;
 	width: 19px;
-	bottom: 2px;
+	top: 3px;
 	margin-right: 35px;
 }
 
@@ -61,28 +110,44 @@ body{
     font-size: 18px;
     opacity: 0.9;
     letter-spacing: 0.25px;
+    position: relative;
+    top: 6px;
 }
 
 .dashboard-wellcomeBar-chevron{
 	width: 16px;
     height: 16px;
     position: relative;
-    bottom: 2px;
+    top: 4px;
 }
 /** dashboard-wellcomeBar **/
 
 
 /** dashboard-menuBar **/
+/** < 768 **/
+@media only screen and (max-width: 768px){
+	.dashboard-menuBar-menuD{
+		display: none;
+	}
+}
+
+/** > 768 **/
+@media only screen and (min-width: 769px){
+	.dashboard-menuBar-menuD{
+		display: block;
+	}
+}
+
 .dashboard-menuBar{
     padding-top: 36px;
     font-size: 16px;
 }
 
-.dashboard-menuBar-menu ul{
+.dashboard-menuBar-menuD ul{
 	padding-inline-start: 0;
 }
 
-.dashboard-menuBar-menu ul li{
+.dashboard-menuBar-menuD ul li{
 	list-style: none;
 	display: inline-block;
 	margin-right: 18px;
@@ -90,21 +155,21 @@ body{
 	cursor: pointer;
 }
 
-.dashboard-menuBar-menu ul li.selected{
+.dashboard-menuBar-menuD ul li.selected{
 	background-color: #7480D1;
 	border-radius: 17px;
 }
 
-.dashboard-menuBar-menu ul li:hover{
+.dashboard-menuBar-menuD ul li:hover{
 	background-color: #7480D1;
 	border-radius: 17px;
 }
 
-.dashboard-menuBar-menu ul li.selected a{
+.dashboard-menuBar-menuD ul li.selected a{
 	font-weight: 600;
 }
 
-.dashboard-menuBar-menu ul li a{
+.dashboard-menuBar-menuD ul li a{
 	font-family: 'Poppins';
 	text-decoration: none;
 	font-weight: 300;
@@ -116,6 +181,18 @@ body{
 
 
 /** dashboard-card **/
+/** < 768 **/
+@media only screen and (max-width: 768px){
+	.dashboard-card-mobile{
+		margin-bottom: 20px;
+	}
+}
+
+/** > 768 **/
+@media only screen and (min-width: 769px){
+	
+}
+
 .dashboard-card{}
 
 .dashboard-card-bg{
@@ -204,6 +281,10 @@ body{
 	.dashboard-slack-buttons{
 		margin-bottom: 22px;
 	}
+
+	.dashboard-slack{
+		padding-top: 20px;
+	}
 }
 
 /** > 768 **/
@@ -236,6 +317,10 @@ body{
 	.dashboard-slack-btJoin{
 		padding: 9px 33px;
 	}
+
+	.dashboard-slack{
+		padding-top: 40px;
+	}
 }
 
 .dashboard-slack-title{
@@ -247,10 +332,6 @@ body{
 	font-family: 'Poppins';
 	color: #FFF;
 	opacity: 0.75;
-}
-
-.dashboard-slack{
-	padding-top: 40px;
 }
 
 .dashboard-slack-bg{
@@ -281,9 +362,22 @@ body{
 
 
 /** dashboard-content **/
+/** < 768 **/
+@media only screen and (max-width: 768px){
+	.dashboard-content{
+		top: 90px;
+	}
+}
+
+/** > 768 **/
+@media only screen and (min-width: 769px){
+	.dashboard-content{
+		top: 185px;
+	}	
+}
+
 .dashboard-content{
 	position: relative;
-    top: 185px;
 }
 /** dashboard-content **/
 
@@ -503,7 +597,11 @@ body{
 	}
 
 	.dashboard-activity-line{
-		height: 67%;
+		height: 78%;
+	}
+
+	.dashboard-activity-user{
+		margin-bottom: 22px;
 	}
 }
 
@@ -537,15 +635,15 @@ body{
 	.dashboard-activity-line{
 		height: 54px;
 		margin-top: 3px;
-	}	
+	}
+
+	.dashboard-activity-user{
+		margin-top: 3px;
+	}
 }
 
 .dashboard-activity{
 	padding: 19px 9px 19px 9px;
-}
-
-.dashboard-activity-user{
-	margin-top: 3px;
 }
 
 .dashboard-activity-title{
