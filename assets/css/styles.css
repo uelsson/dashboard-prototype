@@ -13,6 +13,8 @@ body{
 .dashboard-header{
 	height: 240px;
 	background: linear-gradient(201.71deg, #6A79DD 0%, #5866C3 100%);
+	position: absolute;
+    width: 100%;
 }
 /** dashboard-header **/
 
@@ -149,9 +151,11 @@ body{
 .dashboard-title-seeMore{
 	font-family: 'Poppins';
 	color: #79828B;
-	font-weight: 300;
+	font-weight: 400;
 	text-transform: uppercase;
 	position: relative;
+	letter-spacing: 1.5px;
+	font-size: 14px;
 	padding-top: 6px;
 }
 
@@ -162,29 +166,68 @@ body{
 
 
 /** dashboard-slack **/
+/** < 768 **/
+@media only screen and (max-width: 768px){
+	.dashboard-slack-icon{
+		padding: 28px 0 0 0;
+		text-align: center;
+	}
+
+	.dashboard-slack-buttons{
+		text-align: center;
+	}
+
+	.dashboard-slack-title{
+		font-family: 'Poppins';
+		font-weight: 500;
+		font-size: 17px;
+		color: #FFF;
+		padding: 26px 0 0 0;
+		text-align: center;
+	}
+
+	.dashboard-slack-description{
+	    font-family: 'Poppins';
+	    font-weight: 300;
+	    font-size: 14px;
+	    color: #FFF;
+	    opacity: 0.75;
+	    padding: 18px 0 18px 0;
+	    text-align: center;
+	}
+
+}
+
+/** > 768 **/
+@media only screen and (min-width: 769px){
+	.dashboard-slack-icon{
+		padding: 46px 0 0 33px;
+	}
+
+	.dashboard-slack-buttons{
+		margin: 52px 0 0 49px;
+	}
+
+	.dashboard-slack-title{
+		font-family: 'Poppins';
+		font-weight: 500;
+		font-size: 24px;
+		color: #FFF;
+		padding: 29px 0 0 35px;
+	}
+
+	.dashboard-slack-description{
+		font-family: 'Poppins';
+		font-weight: 300;
+		font-size: 16px;
+		color: #FFF;
+		opacity: 0.75;
+		padding: 2px 0 0 35px;
+	}
+}
+
 .dashboard-slack{
 	padding-top: 40px;
-}
-
-.dashboard-slack-icon{
-	padding: 46px 0 0 33px;
-}
-
-.dashboard-slack-title{
-	font-family: 'Poppins';
-	font-weight: 500;
-	font-size: 24px;
-	color: #FFF;
-	padding: 29px 0 0 35px;
-}
-
-.dashboard-slack-description{
-	font-family: 'Poppins';
-	font-weight: 300;
-	font-size: 16px;
-	color: #FFF;
-	opacity: 0.75;
-	padding: 2px 0 0 35px;
 }
 
 .dashboard-slack-bg{
@@ -192,11 +235,6 @@ body{
 	background: linear-gradient(201.71deg, #8F9DF8 0%, #92A0FF 100%);
 	box-shadow: 0 26px 51px 0 rgba(0,0,0,0.08);
 	border-radius: 10px;
-}
-
-.dashboard-slack-buttons{
-	margin-top: 52px;
-	margin-left: 49px;
 }
 
 .dashboard-slack-btRemind{
@@ -225,7 +263,7 @@ body{
 /** dashboard-content **/
 .dashboard-content{
 	position: relative;
-	bottom: 54px;
+    top: 185px;
 }
 /** dashboard-content **/
 
@@ -235,28 +273,17 @@ body{
     padding: 19px 9px 19px 9px;
 }
 
-.dashboard-ernings-chart{
-	position: relative;
+.dashboard-earnings-title{
+	font-family: 'Poppins';
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #79828B;
+    letter-spacing: 1.5px;
+    font-size: 14px;
 }
 
-.dashboard-ernings-bar{
-	width: 25px;
-    height: 85%;
-    text-shadow: 0 0 black;
-    position: absolute;
-	background-color: #F6F8FA;
-}
+.dashboard-earnings-chart{
 
-.dashboard-ernings-bar-1{
-    left: 57px;
-}
-
-.dashboard-ernings-bar-2{
-    left: 90px;
-}
-
-.dashboard-ernings-bar-3{
-    left: 123px;
 }
 /** dashboard-earnings **/
 
@@ -540,6 +567,25 @@ body{
 
 
 /** dashboard-topEarners **/
+/** < 768 **/
+@media only screen and (max-width: 768px){
+	.dashboard-title{
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+
+	.dashboard-topEarners{
+		margin-bottom: 30px;
+	}
+}
+
+/** > 768 **/
+@media only screen and (min-width: 769px){
+	.dashboard-topEarners{
+		margin-bottom: 50px;
+	}
+}
+
 .dashboard-topEarners{
 	padding: 19px 9px 33px 9px;
 }

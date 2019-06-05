@@ -62,6 +62,7 @@ var chart = new Chart(ctx, {
 				  return "$" + currentValue;
 				}
 			}
-		} 
+		},
+		maintainAspectRatio : false
 	}
 });
