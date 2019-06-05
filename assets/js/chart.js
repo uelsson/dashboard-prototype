@@ -1,7 +1,7 @@
 var ctx = document.getElementById('myChart').getContext('2d');
 var chart = new Chart(ctx, {
 	// The type of chart we want to create
-	type: 'line',
+	type: 'bar',
 
 	// The data for our dataset
 	data: {
@@ -10,9 +10,16 @@ var chart = new Chart(ctx, {
 			label: 'Ganhos',
 			backgroundColor: 'rgb(101, 115, 214, 0.1)',
 			borderColor: 'rgb(101, 115, 214)',
+			data: [250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250, 250],
+		
+		},{
+			label: 'Ganhos',
+			backgroundColor: 'rgb(101, 115, 214, 0.1)',
+			borderColor: 'rgb(101, 115, 214)',
 			data: [150, 200, 130, 200, 90, 190, 140, 120, 130, 100, 150, 230],
 			fill : true,
-			lineTension: 0
+			lineTension: 0,
+			type:'line'
 		}]
 	},
 

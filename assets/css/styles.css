@@ -234,6 +234,30 @@ body{
 .dashboard-earnings{
     padding: 19px 9px 19px 9px;
 }
+
+.dashboard-ernings-chart{
+	position: relative;
+}
+
+.dashboard-ernings-bar{
+	width: 25px;
+    height: 85%;
+    text-shadow: 0 0 black;
+    position: absolute;
+	background-color: #F6F8FA;
+}
+
+.dashboard-ernings-bar-1{
+    left: 57px;
+}
+
+.dashboard-ernings-bar-2{
+    left: 90px;
+}
+
+.dashboard-ernings-bar-3{
+    left: 123px;
+}
 /** dashboard-earnings **/
 
 
