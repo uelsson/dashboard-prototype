@@ -178,24 +178,32 @@ body{
 	}
 
 	.dashboard-slack-title{
-		font-family: 'Poppins';
 		font-weight: 500;
 		font-size: 17px;
-		color: #FFF;
 		padding: 26px 0 0 0;
 		text-align: center;
 	}
 
 	.dashboard-slack-description{
-	    font-family: 'Poppins';
 	    font-weight: 300;
 	    font-size: 14px;
-	    color: #FFF;
-	    opacity: 0.75;
 	    padding: 18px 0 18px 0;
 	    text-align: center;
 	}
-
+	
+	.dashboard-slack-btRemind{
+		padding: 9px 5px;
+		width: 46%;
+	}
+	
+	.dashboard-slack-btJoin{
+		padding: 9px 5px;
+		width: 46%;
+	}
+	
+	.dashboard-slack-buttons{
+		margin-bottom: 22px;
+	}
 }
 
 /** > 768 **/
@@ -209,21 +217,36 @@ body{
 	}
 
 	.dashboard-slack-title{
-		font-family: 'Poppins';
 		font-weight: 500;
 		font-size: 24px;
-		color: #FFF;
 		padding: 29px 0 0 35px;
 	}
 
 	.dashboard-slack-description{
-		font-family: 'Poppins';
 		font-weight: 300;
 		font-size: 16px;
-		color: #FFF;
-		opacity: 0.75;
 		padding: 2px 0 0 35px;
 	}
+	
+	.dashboard-slack-btRemind{
+		margin-right: 20px;
+		padding: 9px 33px;
+	}
+	
+	.dashboard-slack-btJoin{
+		padding: 9px 33px;
+	}
+}
+
+.dashboard-slack-title{
+	font-family: 'Poppins';
+	color: #FFF;
+}
+
+.dashboard-slack-description{
+	font-family: 'Poppins';
+	color: #FFF;
+	opacity: 0.75;
 }
 
 .dashboard-slack{
@@ -244,8 +267,6 @@ body{
     text-transform: uppercase;
     border: 1px solid #FFF;
     border-radius: 7px;
-    padding: 9px 33px;
-    margin-right: 20px;
 }
 
 .dashboard-slack-btJoin{
@@ -255,7 +276,6 @@ body{
     text-transform: uppercase;
     border: 1px solid #6574D6;
     border-radius: 7px;
-    padding: 9px 33px;
 }
 /** dashboard-slack **/
 
@@ -454,6 +474,72 @@ body{
 
 
 /** dashboard-activity **/
+/** < 768 **/
+@media only screen and (max-width: 768px){
+	.dashboard-activity-userInfo{
+		width: 60%;
+	}
+	
+	.dashboard-activity-coins ul li{
+		padding: 3px 10px;
+	}
+	
+	.dashboard-activity-currency{
+		font-size: 16px;
+	}
+	
+	.dashboard-activity-lastAccessD{
+		display: none;
+	}
+	
+	.dashboard-activity-lastAccessM{
+		display: block;
+		font-size: 12px;
+    	margin-bottom: 10px;
+	}
+
+	.dashboard-activity-picture{
+		height: 100%;
+	}
+
+	.dashboard-activity-line{
+		height: 67%;
+	}
+}
+
+/** > 768 **/
+@media only screen and (min-width: 769px){
+	.dashboard-activity-userInfo{
+		padding-left: 5px;
+	}
+	
+	.dashboard-activity-coins ul li{
+		letter-spacing: 1.25px;
+		padding: 3px 12px;
+	}
+	
+	.dashboard-activity-currency{
+		font-size: 20px;
+		top: 2px;
+	}
+	
+	.dashboard-activity-lastAccessD{
+		display: block;
+		text-align: right;
+		font-size: 12px;
+    	margin-top: 6px;
+	}
+	
+	.dashboard-activity-lastAccessM{
+		display: none;
+	}
+
+	.dashboard-activity-line{
+		height: 54px;
+		margin-top: 3px;
+	}	
+}
+
 .dashboard-activity{
 	padding: 19px 9px 19px 9px;
 }
@@ -483,7 +569,6 @@ body{
 
 .dashboard-activity-userInfo{
 	float: left;
-	padding-left: 5px;
 }
 
 .dashboard-activity-profileImage{
@@ -494,16 +579,10 @@ body{
     border: 3px solid #FFFF;
 }
 
-.dashboard-activity-lastAccess{
-	text-align: right;
-}
-
 .dashboard-activity-line{
 	width: 2px;
-    height: 54px;
     background-color: #E6EBF0;
     margin-left: 50px;
-    margin-top: 3px;
 }
 
 .dashboard-activity-name{
@@ -533,9 +612,7 @@ body{
 .dashboard-activity-coins ul li{
 	font-family: 'Poppins';
 	list-style: none;
-	padding: 3px 12px;
 	display: inline-block;
-	letter-spacing: 1.25px;
 }
 
 .dashboard-activity-eth{
@@ -551,17 +628,13 @@ body{
 
 .dashboard-activity-currency{
 	color: #42505C;
-	font-size: 20px;
 	position: relative;
-    top: 2px;
 }
 
-.dashboard-activity-lastAccess{
+.dashboard-activity-lastAccessD, .dashboard-activity-lastAccessM{
 	font-family: 'Poppins';
-    font-weight: 300;
+	font-weight: 300;
     color: #79828B;
-    font-size: 12px;
-    margin-top: 6px;
 }
 /** dashboard-activity **/
 
