@@ -15,6 +15,23 @@
     </head>
 
     <body>
+        <nav class="dashboard-wellcomeBar-menuMobileDrop">
+            <div class="container">
+                <div class="row dashboard-wellcomeBar-menuMobileNavigation">
+                    <div class="col-6 dashboard-wellcomeBar-menuMobileLogo"><img class="logo" src="./assets/images/icon.svg"/></div>
+                    <div class="col-6 dashboard-wellcomeBar-menuMobileClose text-right"><i class="fas fa-times"></i></div>
+                </div>
+                
+                <ul>
+                    <li class="selected"><a href="#">Home</a></li>
+                    <li><a href="#">My Projects</a></li>
+                    <li><a href="#">Payments</a></li>
+                    <li><a href="#">Activity</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div>
+        </nav>
+
         <!-- /dashboard-header -->
         <div class="dashboard-header">
             <!-- /dashboard-wellcomeBar -->
@@ -25,12 +42,12 @@
                     <div class="row">
                         <!-- /col -->
                         <div class="col-6">
-                            <div class="dashboard-wellcomeBar-logoD">
+                            <div class="dashboard-wellcomeBar-logoDesktop">
                                 <img class="logo" src="./assets/images/logo.png"/>
                             </div>
 
-                            <div class="dashboard-wellcomeBar-logoM">
-                                <i class="fas fa-bars menu"></i>
+                            <div class="dashboard-wellcomeBar-logoMobile">
+                                <i class="fas fa-bars dashboard-wellcomeBar-menuMobileOpen"></i>
                                 <img class="logo" src="./assets/images/icon.svg"/>
                             </div>
                         </div><!-- ./col -->
@@ -680,6 +697,7 @@
         <script src="./assets/library/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
         <script src="./assets/js/chart.js"></script>
+        <script src="./assets/js/menu.js"></script>
         <!-- ./js -->
     </body>
 </html>

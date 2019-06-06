@@ -26,19 +26,65 @@ body{
 		padding-top: 23px;
 	}
 
-	.dashboard-wellcomeBar-logoD{
+	.dashboard-wellcomeBar-logoDesktop{
 		display: none;
 	}
 
-	.dashboard-wellcomeBar-logoM{
+	.dashboard-wellcomeBar-logoMobile{
 		display: block;
 	}
 
-	.dashboard-wellcomeBar-logoM .menu{
+	.dashboard-wellcomeBar-menuMobileOpen{
 		font-size: 27px;
 	    position: relative;
 	    top: 5px;
 	    margin-right: 12px;
+	}
+
+	.dashboard-wellcomeBar-menuMobileDrop{
+		position: fixed;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    background-color: #5B69C8;
+	    z-index: 1;
+	    height: 100%;
+	    transform: translateX(-100%);
+	    transition: transform 200ms linear;
+	}
+
+	.dashboard-wellcomeBar-menuMobileDrop ul{
+	    padding-inline-start: 0;
+	    list-style: none;
+	}
+
+	.dashboard-wellcomeBar-menuMobileDrop ul li{
+	    padding: 10px 0 10px 0;
+    	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+	}
+
+	.dashboard-wellcomeBar-menuMobileDrop ul li a{
+		font-family: 'Poppins';
+		color: rgba(255, 255, 255, 0.6);
+	}
+
+	.dashboard-wellcomeBar-menuMobileNavigation{
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	.dashboard-wellcomeBar-menuMobileLogo img{
+		position: relative;
+		top: 5px;
+	}
+
+	.dashboard-wellcomeBar-menuMobileClose{
+		color: rgba(255, 255, 255, 0.6);
+		font-size: 30px;
+	}
+
+	.dashboard-wellcomeBar-menuMobileDropOpen{
+		transform: translateX(0);
 	}
 
 	.dashboard-wellcomeBar-bell{
@@ -52,11 +98,15 @@ body{
 		padding-top: 39px;
 	}
 
-	.dashboard-wellcomeBar-logoD{
+	.dashboard-wellcomeBar-logoDesktop{
 		display: block;
 	}
 
-	.dashboard-wellcomeBar-logoM{
+	.dashboard-wellcomeBar-logoMobile{
+		display: none;
+	}
+
+	.dashboard-wellcomeBar-menuMobileDrop{
 		display: none;
 	}
 
