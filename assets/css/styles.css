@@ -262,6 +262,35 @@ body{
 
 
 /** dashboard-title **/
+/** < 400 **/
+@media only screen and (max-width: 400px){
+	.dashboard-title-primary{
+		font-size: 15px;
+		font-weight: 500;
+	}
+
+	.dashboard-title-seeMore{
+		font-size: 13px;
+		margin-top: 1px;
+	}
+}
+
+/** > 400 **/
+@media only screen and (min-width: 400px){
+	.dashboard-title-primary{
+		font-size: 20px;
+		letter-spacing: 0.25px;
+		font-weight: 400;
+	}
+
+	.dashboard-title-seeMore{
+		letter-spacing: 1.5px;
+		font-size: 14px;
+		padding-top: 5px;
+		font-weight: 400;
+	}
+}
+
 .dashboard-title{
 	padding-top: 43px;
 	padding-bottom: 24px;
@@ -270,20 +299,13 @@ body{
 .dashboard-title-primary{
 	font-family: 'Poppins';
 	color: #42505C;
-	font-weight: 400;
-	font-size: 20px;
-	letter-spacing: 0.25px;
 }
 
 .dashboard-title-seeMore{
 	font-family: 'Poppins';
 	color: #79828B;
-	font-weight: 400;
 	text-transform: uppercase;
 	position: relative;
-	letter-spacing: 1.5px;
-	font-size: 14px;
-	padding-top: 6px;
 }
 
 .dashboard-title-seeMore a{
@@ -476,6 +498,7 @@ body{
 	color: #8D99A4;
 	background-color: #F1F2F3;
 	margin-right: 6px;
+	margin-bottom: 6px;
 }
 
 .dashboard-withoutChart-title{
@@ -515,6 +538,22 @@ body{
 
 
 /** dashboard-projects **/
+/** < 400 **/
+@media only screen and (max-width: 400px){
+	.dashboard-projects-coins ul li{
+		padding: 3px 10px;
+	}
+}
+
+/** > 400 **/
+@media only screen and (min-width: 400px){
+	.dashboard-projects-coins ul li{
+		margin-right: 6px;
+		letter-spacing: 1.25px;
+		padding: 3px 12px;
+	}
+}
+
 .dashboard-projects{
 	padding: 24px 9px 24px 9px;
 }
@@ -591,11 +630,8 @@ body{
 .dashboard-projects-coins ul li{
 	font-family: 'Poppins';
 	list-style: none;
-	padding: 3px 12px;
 	display: inline-block;
 	font-size: 16px;
-	margin-right: 6px;
-	letter-spacing: 1.25px;
 }
 
 .dashboard-projects-eth{
@@ -647,7 +683,7 @@ body{
 	}
 
 	.dashboard-activity-line{
-		height: 78%;
+		height: 82%;
 	}
 
 	.dashboard-activity-user{
