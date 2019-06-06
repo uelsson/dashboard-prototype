@@ -455,6 +455,46 @@ body{
 
 
 /** dashboard-earnings **/
+/** < 768 **/
+@media only screen and (max-width: 768px){
+	.dashboard-earnings-desktop{
+		display: none;
+	}
+
+	.dashboard-earnings-mobile{
+		display: block;
+	}
+}
+
+/** > 768 **/
+@media only screen and (min-width: 769px){
+	.dashboard-earnings-desktop{
+		display: block;
+	}
+
+	.dashboard-earnings-mobile{
+		display: none;
+	}
+}
+
+/** < 400 **/
+@media only screen and (max-width: 400px){
+	.dashboard-earnings-coins ul li{
+		padding: 3px 10px;
+		margin-bottom: 6px;
+	}
+}
+
+/** > 400 **/
+@media only screen and (min-width: 400px){
+	.dashboard-earnings-coins ul li{
+		margin-right: 6px;
+		margin-bottom: 6px;
+		letter-spacing: 1.25px;
+		padding: 3px 12px;
+	}
+}
+
 .dashboard-earnings{
     padding: 19px 9px 19px 9px;
 }
@@ -466,10 +506,51 @@ body{
     color: #79828B;
     letter-spacing: 1.5px;
     font-size: 14px;
+    margin-bottom: 15px;
 }
 
-.dashboard-earnings-chart{
+.dashboard-earnings-amount{
+	font-family: 'Roboto';
+	color: #42505C;
+	font-size: 30px;
+}
 
+.dashboard-earnings-amount span{
+	color: #999;
+}
+
+.dashboard-earnings-description{
+	font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 14px;
+    color: #79828B;
+    margin-bottom: 15px;
+}
+
+.dashboard-earnings-description span{
+	color: #10C172;
+}
+
+.dashboard-earnings-coins ul{
+	padding-inline-start: 0px;
+	margin-bottom: 0;
+}
+
+.dashboard-earnings-coins ul li{
+	font-family: 'Poppins';
+	list-style: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.dashboard-earnings-eth{
+	color: #6271D2;
+	background: rgba(98, 113, 210, 0.1);
+}
+
+.dashboard-earnings-btc{
+	color: #D28E62;
+	background: rgba(210, 142, 98, 0.1);
 }
 /** dashboard-earnings **/
 
